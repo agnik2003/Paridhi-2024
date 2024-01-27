@@ -9,6 +9,24 @@ export const Container = styled.div`
   width: 678px;
   max-width: 100%;
   min-height: 400px;
+  @media (max-width: 830px) {
+    width: 650px;
+    max-width: 100%;
+    min-height: 350px;
+  }
+  @media (max-width: 700px) {
+    font-size:1rem;
+    width: 550px;
+    max-width: 100%;
+    min-height: 300px;
+  }
+  @media (max-width: 600px) {
+    font-size:.6rem;
+    width: 500px;
+    max-width: 100%;
+    min-height:250px;
+  }
+
 `;
 
 export const SignUpContainer = styled.div`
@@ -28,6 +46,7 @@ export const SignUpContainer = styled.div`
    z-index: 5;
  `
       : null}
+      
 `;
 
 export const SignInContainer = styled.div`
