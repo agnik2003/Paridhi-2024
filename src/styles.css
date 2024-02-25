@@ -13,5 +13,11 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   margin: -20px 0 50px;
-  /* background-color: rgb(238, 78, 78); */
+  
+}
+@media (max-width: 768px) {
+  body{
+  background-color: black;
+  
+  }
 }
